@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Prestamos.Properties {
+namespace Entidades.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,11 +26,11 @@ namespace Prestamos.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\BaseDatos\\Pre" +
-            "stamosBD.mdf;Integrated Security=True;Connect Timeout=30")]
-        public string ConStr {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Robert\\Desktop\\Prest" +
+            "amos\\Prestamos\\BaseDatos\\PrestamosBD.mdf;Integrated Security=True")]
+        public string PrestamosBDConnectionString {
             get {
-                return ((string)(this["ConStr"]));
+                return ((string)(this["PrestamosBDConnectionString"]));
             }
         }
     }
